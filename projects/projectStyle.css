@@ -1,0 +1,35 @@
+.colour-style-1{
+    background-color: #FCFCFC;
+}
+
+.colour-style-2{
+    background-color: #d6d6d6;
+}
+
+.text-style-1{
+   color: #7c7c7c;
+}
+
+.text-style-1:hover {
+    color: #7c7c7c;; /* Prevent color change on hover */
+    text-decoration: none; /* Ensure underline is not added on hover */
+}
+
+.no-carat{
+    caret-color: transparent;
+}
+
+.bd-example {
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+li.label-outline span{
+    background-color: #d6d6d6;
+    color: #1d1d1e;
+    border-radius: 10px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    padding: 0 5px 0 5px;
+  }

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="projects/projectStyle.css">
+</head>
+<body style="caret-color: transparent;">
+    <style>
+        .colour-style-2{
+            background-color: #d6d6d6;
+        }
+
+    </style>
+
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light justify-content-center text-center">
+            <a class="navbar-brand justify-content-center text-center mx-5" href="home.html#home" style="color: #7c7c7c;">Jamie Watson</a>
+            <button class="navbar-toggler justify-content-center text-center" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon justify-content-center text-center"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse justify-content-center text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html#about" style="caret-color: transparent;">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Resume/Resume_2024.pdf">Resume</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="project.html?tags=personal">Personal</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="project.html?tags=school">Academic</a>
+                            
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container-mt pt-5 justify-content-center">
+        <div class="row py-3 justify-content-center">
+            <div class="col-sm-12 text-center justify-content-center px-5">
+                <h1 class="display-1">Projects</h1>
+            </div>
+        </div>
+        <div class="row text-center justify-content-center align-items-center px-5">
+            <p>All the stuff I've been working on</p>
+        </div>
+        <div class="row">
+            <hr>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-sm-1 d-flex justify-content-center align-items-center mx-5 mb-3">
+                <input type="checkbox" class="btn-check tag-button" id="personal" autocomplete="off" checked value="personal" checked>
+                <label class="btn btn-outline-secondary d-inline-flex align-items-center" for="personal">
+                    Personal
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-arms-up ms-2" viewBox="0 0 16 16">
+                        <path d="M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                        <path d="m5.93 6.704-.846 8.451a.768.768 0 0 0 1.523.203l.81-4.865a.59.59 0 0 1 1.165 0l.81 4.865a.768.768 0 0 0 1.523-.203l-.845-8.451A1.5 1.5 0 0 1 10.5 5.5L13 2.284a.796.796 0 0 0-1.239-.998L9.634 3.84a.7.7 0 0 1-.33.235c-.23.074-.665.176-1.304.176-.64 0-1.074-.102-1.305-.176a.7.7 0 0 1-.329-.235L4.239 1.286a.796.796 0 0 0-1.24.998l2.5 3.216c.317.316.475.758.43 1.204Z"/>
+                    </svg> 
+                </label>
+            </div>
+          
+            <div class="col-sm-1 d-flex justify-content-center align-items-center mx-5 mb-3">
+                <input type="checkbox" class="btn-check tag-button" id="school" autocomplete="off" checked value="school" checked>
+                <label class="btn btn-outline-secondary d-inline-flex align-items-center" for="school">
+                    School
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil ms-2" viewBox="0 0 16 16">
+                        <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325"/>
+                    </svg> 
+                </label>
+            </div>
+          
+            <div class="col-sm-1 d-flex justify-content-center align-items-center mx-5 mb-3">
+                <input type="checkbox" class="btn-check tag-button" id="python" autocomplete="off" checked value="python" checked>
+                <label class="btn btn-outline-secondary d-inline-flex align-items-center" for="python">Python
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filetype-py ms-2" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2H7v-1h5a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM0 11.85h1.6q.434 0 .732.179.302.175.46.477t.158.677-.16.677q-.158.299-.464.474a1.45 1.45 0 0 1-.732.173H.79v1.342H0zm2.06 1.714a.8.8 0 0 0 .085-.381q0-.34-.185-.521-.185-.182-.513-.182H.788v1.406h.66a.8.8 0 0 0 .374-.082.57.57 0 0 0 .238-.24m2.963.75v1.535H4.23v-1.52L2.89 11.85h.876l.853 1.696h.032l.856-1.696h.855z"/>
+                    </svg> 
+                </label>
+            </div>
+
+            <div class="col-sm-1 d-flex justify-content-center align-items-center mx-5 mb-3">
+                <input type="checkbox" class="btn-check tag-button" id="java" autocomplete="off" checked value="java" checked>
+                <label class="btn btn-outline-secondary d-inline-flex align-items-center" for="java">Java
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filetype-java ms-2" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM1.521 15.175a1.3 1.3 0 0 1-.082-.466h.765a.6.6 0 0 0 .073.27.5.5 0 0 0 .454.246q.285 0 .422-.164.138-.165.138-.466V11.85h.79v2.725q0 .66-.357 1.005-.354.345-.984.345a1.6 1.6 0 0 1-.568-.094 1.1 1.1 0 0 1-.408-.266 1.1 1.1 0 0 1-.243-.39m3.972-.354-.314 1.028h-.8l1.342-3.999h.926l1.336 3.999h-.84l-.314-1.028zm1.178-.59-.49-1.616h-.035l-.49 1.617zm2.342 1.618h.952l1.327-3.999h-.878l-.888 3.138h-.038L8.59 11.85h-.917zm3.087-1.028-.314 1.028h-.8l1.342-3.999h.926l1.336 3.999h-.84l-.314-1.028zm1.178-.59-.49-1.616h-.035l-.49 1.617z"/>
+                    </svg>
+                </label>
+            </div> 
+
+            <div class="col-sm-1 d-flex justify-content-center align-items-center mx-5 mb-3">
+                <input type="checkbox" class="btn-check tag-button" id="game" autocomplete="off" checked value="game" checked>
+                <label class="btn btn-outline-secondary d-inline-flex align-items-center" for="game">Game
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-joystick ms-2" viewBox="0 0 16 16">
+                        <path d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2"/>
+                        <path d="M0 9.665v1.717a1 1 0 0 0 .553.894l6.553 3.277a2 2 0 0 0 1.788 0l6.553-3.277a1 1 0 0 0 .553-.894V9.665c0-.1-.06-.19-.152-.23L9.5 6.715v.993l5.227 2.178a.125.125 0 0 1 .001.23l-5.94 2.546a2 2 0 0 1-1.576 0l-5.94-2.546a.125.125 0 0 1 .001-.23L6.5 7.708l-.013-.988L.152 9.435a.25.25 0 0 0-.152.23"/>
+                      </svg>
+                </label>
+            </div>   
+        </div>
+    </div>
+
+    <div class="container-my-5 py-5">
+        <div class="row">
+            <div class="col-sm-4 justify-content-center align-content-center project-card" data-tags="java school">
+                <a class="card m-5 btn btn-light" href="projects/lidarCluster.html">
+                    <img src="Images/Lidar.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Clustering using LiDAR</h5>
+                        <ul class="list-inline card-text">
+                            <li class="list-inline-item label-outline"><span>Java Based</span></li>
+                            <li class="list-inline-item label-outline"><span>School Project</span></li>
+                        </ul>
+                        <p class="card-text"><small class="text-muted">June 4th, 2024</small></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-4 justify-content-center align-content-center project-card" data-tags="java school">
+                <a class="card m-5 btn btn-light" href="projects/parkingSim.html">
+                    <img src="Images/parkingLot.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Parking Lot Simulator</h5>
+                        <ul class="list-inline card-text">
+                            <li class="list-inline-item label-outline"><span>Java Based</span></li>
+                            <li class="list-inline-item label-outline"><span>School Project</span></li>
+                        </ul>
+                        <p class="card-text"><small class="text-muted">March 22nd, 2024</small></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-4 justify-content-center align-content-center project-card" data-tags="python school game">
+                <a class="card m-5 btn btn-light" href="projects/oldMaid.html">
+                    <img src="Images/cards.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Old Maid Card Game</h5>
+                        <ul class="list-inline card-text">
+                            <li class="list-inline-item label-outline"><span>Python Based</span></li>
+                            <li class="list-inline-item label-outline"><span>School Project</span></li>
+                            <li class="list-inline-item label-outline"><span>Game</span></li>
+                        </ul>
+                        <p class="card-text"><small class="text-muted">October 30th, 2023</small></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-4 justify-content-center align-content-center project-card" data-tags="python personal">
+                <a class="card m-5 btn btn-light" href="projects/nonogram.html">
+                    <img src="Images/nonogramDemo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nonogram Generator Python Class</h5>
+                        <ul class="list-inline card-text">
+                            <li class="list-inline-item label-outline"><span>Python Based</span></li>
+                            <li class="list-inline-item label-outline"><span>Personal Project</span></li>
+                        </ul>
+                        <p class="card-text"><small class="text-muted">May 7th, 2024</small></p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-4 justify-content-center align-content-center project-card" data-tags="java personal">
+                <a class="card m-5 btn btn-light" href="projects/penPal.html">
+                    <img src="Images/readingGirl.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Writing Aid: Penpal</h5>
+                        <ul class="list-inline card-text">
+                            <li class="list-inline-item label-outline"><span>Java Based</span></li>
+                            <li class="list-inline-item label-outline"><span>Personal Project</span></li>
+                        </ul>
+                        <p class="card-text"><small class="text-muted">March 19th, 2023</small></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+       
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        function myFunction(){
+            alert("Hello! This is an alert message.");
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
